@@ -1,11 +1,8 @@
 
-
 from ast import If
 
+from Librery import *
 
-def calcularsueldo(salario, diastrabajados):
-    sueldoPagar = salario/30 * diastrabajados
-    return sueldoPagar
 
 def main():
     SALARIO_MIN = 1000000
@@ -23,7 +20,7 @@ def main():
         sueldoPagar = sueldoPagar + BONO
 
 
-    print(f"Mi nombre es: {nombre} , mi salario es: {salario} y mi sueldo a pagar es: {sueldoPagar:.0f}")
+    print(f"Mi nombre es: {nombre} y mi sueldo a pagar es: {sueldoPagar:.0f}")
 
 
 if __name__ == "__main__":
